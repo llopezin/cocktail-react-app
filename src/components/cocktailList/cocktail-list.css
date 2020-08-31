@@ -1,0 +1,23 @@
+.cocktail-list-item__ingredient {
+  text-transform: capitalize;
+}
+
+.cocktail-list-item__ingredient::after {
+  content: ", ";
+}
+
+.cocktail-list-item__ingredient:last-of-type::after {
+  content: "";
+}
+
+.cocktail-list {
+  margin: 20px;
+  display: flex;
+}
+
+.cocktail-list-item {
+  max-width: 200px;
+  border: 1px solid darkgrey;
+  padding: 20px;
+  margin: 10px;
+}

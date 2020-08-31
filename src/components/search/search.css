@@ -1,0 +1,29 @@
+.search {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.search__text-input {
+  width: 60%;
+  height: 30px;
+  padding: 0px;
+  margin: 0px;
+  line-height: 20px;
+}
+.search__results {
+  width: 60%;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  top: 35px;
+  background: white;
+}
+.search__results__item {
+  list-style-type: none;
+  padding: 10px;
+  border: solid 1px darkgrey;
+  border-top: none;
+}
